@@ -8,16 +8,18 @@ const home = () => {
   return (
     <section className="h-full ">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pd-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pd-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">title title</span>
-            <h1 className="h1 mb-9 ">
-              Helo I'M <br /> <span className="text-accent"> mehdi fhaili</span>
+            {/* <span className="text-xl  text-white/70">Technicien en réseaux et systémes</span> */}
+            <div className="text-center mb-11">
+            <h1 className="h1 mb-5 text-center" >
+              Salut Je suis <br /> <span className="text-accent">EL Mehdi <br /> EL Fhaili</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80 ">
-              i ehhe jdjdj dkkd dkkd i ehhe jdjdj dkkd dkkd i ehhe jdjdj dkkd
-              dkkd i ehhe jdjdj dkkd dkkd i ehhe jdjdj dkkd dkkd
-            </p>
+           
+            <span className="text-xl  text-white/70">Technicien en réseaux et systémes</span>
+            
+            </div>
+            
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 className="uppercase flex items-center gap-2"
@@ -40,7 +42,7 @@ const home = () => {
           </div>
         </div>
       </div>
-      <Stats />
+      {/* <Stats /> */}
     </section>
   );
 };

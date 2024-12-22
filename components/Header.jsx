@@ -8,7 +8,7 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href={"/"}>
           <h1 className="text-4xl font-semibold">
-            MEHDI <span className="text-accent">.</span>
+            EL MFH <span className="text-accent">.</span>
           </h1>
         </Link>
         <div className="hidden xl:flex items-center gap-8">

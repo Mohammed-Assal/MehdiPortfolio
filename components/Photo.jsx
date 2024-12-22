@@ -19,10 +19,10 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]  mix-blend-lighten absolute "
+          className="w-[278px] h-[278px] xl:w-[478px] xl:h-[478px] ml-[15px] mix-blend-lighten absolute "
         >
           <Image
-            src="/pngegg.png"
+            src="/profile.jpg"
             prioroty
             quality={100}
             fill
