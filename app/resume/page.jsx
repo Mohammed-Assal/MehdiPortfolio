@@ -89,16 +89,16 @@ const skills = {
       name: "Administration Réseaux",
     },
     {
-      icon: "/NMAP.png",
-      name: "Analyseur réseaux",
+      icon: "/shift.png",
+      name: "Time shift Sauvegarde et restauration",
     },
     {
       icon: "/vmware.png",
       name: "Virtualisation",
     },
     {
-      icon: "/Linux.png",
-      name: "full stack web dev",
+      icon: "/zabbix.png",
+      name: `Zabbix  Systéme de surveillance`,
     },
   ],
 };
@@ -114,8 +114,7 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { motion } from "framer-motion";
-import { Item } from "@radix-ui/react-select";
-import Link from "next/link";
+
 const resume = () => {
   return (
     <motion.div
@@ -228,7 +227,7 @@ const resume = () => {
             <TabsContent value="skills" className="w-full">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <h3 className="text-4xl mb-9 font-bold">{skills.title}</h3>
                   {/* <p className=" text-white/60 mx-auto lx:mx-0 flex-col gap-[30px]">
                     {skills.description}
                   </p> */}
@@ -242,10 +241,11 @@ const resume = () => {
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
                               <TooltipTrigger className="w-full h-[80px]   flex justify-center items-center group ">
-                                
-                                  
-                                  <img className="w-[100px]" src={item.icon} alt="kkkk" />
-                                
+                                <img
+                                  className="w-[100px] "
+                                  src={item.icon}
+                                  alt="kkkk"
+                                />
                               </TooltipTrigger>
                               <TooltipContent>
                                 <p className="capitalize">{item.name}</p>
